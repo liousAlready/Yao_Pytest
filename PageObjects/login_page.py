@@ -3,6 +3,7 @@
 # @Author : Limusen
 # @File : login_page
 
+import time
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -19,6 +20,7 @@ class LoginPage:
 
     def login(self, name, password):
         self.wait.until(EC.visibility_of_element_located(loc.username_input_box))
+        self.driver.implicitly_wait(10)
         self.driver.find_element(*loc.username_input_box).send_keys(name)
         self.driver.find_element(*loc.password_input_box).send_keys(password)
         self.driver.find_element(*loc.login_button).click()
@@ -28,5 +30,6 @@ class LoginPage:
         登录失败的时候，弹窗提示
         :return:
         """
-        self.wait.until(EC.visibility_of_element_located(*loc.error_tip_from_login_area))
-        return self.driver.find_element(*loc.error_tip_from_login_area).text
+        # self.wait.until(EC.visibility_of_element_located(loc.error_tip_from_login_area))
+        text = self.driver.find_element(*loc.error_tip_from_login_area).text
+        return text

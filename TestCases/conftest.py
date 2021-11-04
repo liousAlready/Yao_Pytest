@@ -8,12 +8,13 @@
 
 import pytest
 from selenium import webdriver
+from TestDatas import global_datas as gd
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture
 def init():
     # 实例化driver,访问登录页面
     driver = webdriver.Chrome()
-    driver.get("http://userback.yaoweilai.cn:88/login")
+    driver.get(gd.base_url)
     yield driver
     driver.quit()

@@ -6,17 +6,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-from PageLocators.login_locator import LoginLocators as loc
+from PageLocators.home_locator import HomeLocator as loc
 
 
 class HomePage:
-    exit_loc = (By.XPATH, '//div[@class="logo open"]/span')
 
     def __init__(self, driver: WebDriver):
         # 属性 - 元素定位
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 6)
+        self.wait = WebDriverWait(self.driver, 20)
 
     def is_exit_exist(self):
         """
@@ -24,7 +22,7 @@ class HomePage:
         :return:
         """
         try:
-            self.wait.until(EC.visibility_of_element_located(self.exit_loc))
+            self.wait.until(EC.visibility_of_element_located(loc.exit_loc))
         except:
             return False
         else:
