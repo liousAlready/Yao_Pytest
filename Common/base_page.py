@@ -99,63 +99,38 @@ class BasePage:
         else:
             return ele
 
-    def click_element(self, locator, page_action, timeout=20, poll_frequency=0.5):
-        # 等待 - 查找
+    def click(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        # 等待 - 查找 -点击
         ele = self.get_element(locator, page_action, timeout, poll_frequency)
-        # 点击
-        logger.info("在 {} 行为，点击元素：{}".format(page_action, locator))
+        logger.info("在 {} 行为，点击元素：{} ".format(page_action, locator))
         try:
             ele.click()
-        except:
-            logger.exception("点击元素失败！")
+        except Exception as e:
+            # 输入到日志
+            logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
+            # 截图
             self.get_page_img(page_action)
             raise
 
-    def input_text(self, locator, page_action, value, timeout=20, poll_frequency=0.5):
-        # 等待 - 查找
+    def input_text(self, locator, page_action, text, timeout=20, poll_frequency=0.5):
+        # 等待 - 查找 - 输入
         ele = self.get_element(locator, page_action, timeout, poll_frequency)
-        logger.info("在 {} 行为，给元素：{} 输入文本值：{}".format(page_action, locator, value))
+        logger.info("在 {} 行为，给元素：{} , 输入文本: {} ".format(page_action, locator, text))
         try:
             ele.clear()
-            ele.send_keys(value)
-        except:
-            logger.exception("元素输入文本失败！")
+            ele.send_keys(text)
+        except Exception as e:
+            # 输入到日志
+            logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
+            # 截图
             self.get_page_img(page_action)
             raise
 
-    #
-    # def click(self, locator, page_action, timeout=20, poll_frequency=0.5):
-    #     # 等待 - 查找 -点击
-    #     ele = self.get_element(locator, page_action, timeout, poll_frequency)
-    #     logger.info("在 {} 行为，点击元素：{} ".format(page_action, locator))
-    #     try:
-    #         ele.click()
-    #     except Exception as e:
-    #         # 输入到日志
-    #         logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
-    #         # 截图
-    #         self.get_page_img(page_action)
-    #         raise
-    #
-    # def input_text(self, locator, page_action, text, timeout=20, poll_frequency=0.5):
-    #     # 等待 - 查找 - 输入
-    #     ele = self.get_element(locator, page_action, timeout, poll_frequency)
-    #     logger.info("在 {} 行为，给元素：{} , 输入文本: {} ".format(page_action, locator, text))
-    #     try:
-    #         ele.clear()
-    #         ele.send_keys(text)
-    #     except Exception as e:
-    #         # 输入到日志
-    #         logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
-    #         # 截图
-    #         self.get_page_img(page_action)
-    #         raise
-    #
-    # def get_text(self):
-    #     pass
-    #
-    # def get_attribute(self):
-    #     pass
+    def get_text(self):
+        pass
+
+    def get_attribute(self):
+        pass
 
     def get_page_img(self, page_action):
         """
@@ -180,6 +155,6 @@ if __name__ == '__main__':
     loc_button = ("id", "su")
 
     base.input_text(loc, "百度首页_输入搜索内容", "selenium")
-    base.click_element(loc_button, "百度首页_点击搜索按钮")
+    base.click(loc_button, "百度首页_点击搜索按钮")
     time.sleep(2)
     driver.quit()
