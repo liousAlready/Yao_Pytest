@@ -9,19 +9,28 @@
 
 import os
 import time
+
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.remote.webdriver import WebDriver
 from Common.log_utils import logger
 from Common.config_utils import local_config
 
-current_path = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-
 
 class BasePage:
 
     def __init__(self, driver: WebDriver):
         self.driver = driver
+
+    def wait(self, seconds=5):
+        """
+        固定等待--加入默认值，如果没有设置超时时间，则默认等待五秒钟
+
+        :param seconds: 如果没有传入值则默认等待5秒钟
+        """
+        time.sleep(seconds)
+        logger.info("休息一会儿 %s 秒钟~" % seconds)
 
     def wait_ele_visible(self, locator, page_aciton, timeout=20, poll_frequency=0.5):
         """
@@ -100,6 +109,14 @@ class BasePage:
             return ele
 
     def click(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        """
+        对元素进行点击操作
+        :param locator:
+        :param page_action:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        """
         # 等待 - 查找 -点击
         ele = self.get_element(locator, page_action, timeout, poll_frequency)
         logger.info("在 {} 行为，点击元素：{} ".format(page_action, locator))
@@ -113,6 +130,15 @@ class BasePage:
             raise
 
     def input_text(self, locator, page_action, text, timeout=20, poll_frequency=0.5):
+        """
+        对定位元素进行输入操作
+        :param locator:
+        :param page_action:
+        :param text:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        """
         # 等待 - 查找 - 输入
         ele = self.get_element(locator, page_action, timeout, poll_frequency)
         logger.info("在 {} 行为，给元素：{} , 输入文本: {} ".format(page_action, locator, text))
@@ -126,11 +152,43 @@ class BasePage:
             self.get_page_img(page_action)
             raise
 
-    def get_text(self):
-        pass
+    def get_text(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        """
+        获取文本信息
+        :param locator:
+        :param page_action:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        """
+        ele = self.get_element(locator, page_action, timeout, poll_frequency)
+        logger.info("在 {} 行为，获取：{} 元素的文本信息".format(page_action, locator))
+        try:
+            text = ele.text
+        except Exception as e:
+            # 输入到日志
+            logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
+            # 截图
+            self.get_page_img(page_action)
+            raise
+        else:
+            logger.info("获取到的文本信息是: {}".format(text))
+            return text
 
-    def get_attribute(self):
-        pass
+    def get_attribute(self, locator, page_action, attr, timeout=20, poll_frequency=0.5):
+        ele = self.get_element(locator, page_action, timeout, poll_frequency)
+        logger.info("在 {} 行为，获取：{} 元素的类型".format(page_action, locator))
+        try:
+            ele_type = ele.get_attribute(attr)
+        except Exception as e:
+            # 输入到日志
+            logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
+            # 截图
+            self.get_page_img(page_action)
+            raise
+        else:
+            logger.info("获取到的类型是: {}".format(ele_type))
+            return ele_type
 
     def get_page_img(self, page_action):
         """
@@ -138,22 +196,81 @@ class BasePage:
         :return:
         """
         cur_time = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-        file_path = os.path.join(current_path, local_config.get_screen_shot_path)
-        file_name = os.path.join(file_path, "{}_{}.png".format(page_action, cur_time))
+        current_path = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+        file_name = os.path.join(current_path, local_config.get_screen_shot_path,
+                                 "{}_{}.png".format(page_action, cur_time))
         self.driver.save_screenshot(file_name)
         logger.info("截图保存在：{}".format(file_name))
+
+    def get_window_handle(self):
+        """
+        获取所有句柄
+        :return:
+        """
+        return driver.window_handles
+
+    def switch_windows(self, name="new"):
+        """
+        :param name: 默认跳转到新页面
+        :return:
+        """
+        # 等待 -- 获取句柄 -- 切换句柄
+        self.wait(1)
+        if name == "new":
+            driver.switch_to.window(self.get_window_handle()[-1])
+
+    def switch_to_iframe(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        self.wait(1)
+        try:
+            ele = self.get_element(locator, page_action, timeout, poll_frequency)
+            self.driver.switch_to.frame(ele)
+        except Exception as e:
+            # 输入到日志
+            logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
+            # 截图
+            self.get_page_img(page_action)
+            raise
+        else:
+            logger.info("现在跳转框架: {}".format(page_action))
+
+    def switch_to_default(self):
+        """
+        跳转回原来的框架
+        :return:
+        """
+        try:
+            self.wait(1)
+            self.driver.switch_to.default_content()
+        except Exception as e:
+            # 输入到日志
+            logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
+            # 截图
+            self.get_page_img("跳转回原框架")
+            raise
+        else:
+            logger.info("调回原来框架")
 
 
 if __name__ == '__main__':
     from selenium import webdriver
 
-    driver = webdriver.Chrome("/Users/lishouwu/PycharmProjects/Yao_Pytest/Driver/chromedriver")
+    # mac
+    # driver = webdriver.Chrome("/Users/lishouwu/PycharmProjects/Yao_Pytest/Driver/chromedriver")
+
+    # 　win
+    driver = webdriver.Chrome()
     base = BasePage(driver)
     driver.get("https://www.baidu.com")
+
+    base.get_page_img("123")
     # 等待输入框可见
     loc = ("id", "kw")
     loc_button = ("id", "su")
+    new_button = (By.XPATH, '//*[@id="s-top-left"]/a[1]')
+    time.sleep(2)
+    base.get_text(new_button, "获取文本信息")
 
+    time.sleep(2)
     base.input_text(loc, "百度首页_输入搜索内容", "selenium")
     base.click(loc_button, "百度首页_点击搜索按钮")
     time.sleep(2)

@@ -1,0 +1,389 @@
+[2021-11-05 15:25:29,100] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:25:29,101] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:25:29,651] base_page.py->get_page_img line:204 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-25-29.png
+[2021-11-05 15:25:29,985] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:25:29,986] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:25:30,570] base_page.py->get_page_img line:204 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-25-29.png
+[2021-11-05 15:25:30,830] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:25:30,831] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:25:31,302] base_page.py->get_page_img line:204 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-25-30.png
+[2021-11-05 15:25:31,626] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:25:31,626] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:25:32,080] base_page.py->get_page_img line:204 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-25-31.png
+[2021-11-05 15:30:55,022] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:30:55,023] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:30:55,486] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D:\Yao_Pytest\Outputs/screenshots\page_action_2021-11-05-15-30-55.png
+[2021-11-05 15:30:55,867] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:30:55,868] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:30:56,331] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D:\Yao_Pytest\Outputs/screenshots\page_action_2021-11-05-15-30-55.png
+[2021-11-05 15:30:56,648] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:30:56,649] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:30:57,146] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D:\Yao_Pytest\Outputs/screenshots\page_action_2021-11-05-15-30-56.png
+[2021-11-05 15:30:57,520] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:30:57,520] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:30:58,019] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D:\Yao_Pytest\Outputs/screenshots\page_action_2021-11-05-15-30-57.png
+[2021-11-05 15:31:52,657] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:31:52,660] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:31:53,106] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-31-52.png
+[2021-11-05 15:31:53,395] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:31:53,395] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:31:53,855] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-31-53.png
+[2021-11-05 15:31:54,166] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:31:54,167] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:31:54,629] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-31-54.png
+[2021-11-05 15:31:54,878] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:31:54,879] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:31:55,346] base_page.py->get_page_img line:206 [INFO] : 截图保存在：D://*[@placeholder="请输入账号"]_2021-11-05-15-31-54.png
+[2021-11-05 15:33:28,940] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:33:28,940] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:33:29,482] base_page.py->get_page_img line:206 [INFO] : 截图保存在：//*[@placeholder="请输入账号"]_2021-11-05-15-33-28.png
+[2021-11-05 15:33:29,595] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:33:29,596] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:33:30,627] base_page.py->get_page_img line:206 [INFO] : 截图保存在：//*[@placeholder="请输入账号"]_2021-11-05-15-33-29.png
+[2021-11-05 15:33:31,003] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:33:31,004] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:33:31,479] base_page.py->get_page_img line:206 [INFO] : 截图保存在：//*[@placeholder="请输入账号"]_2021-11-05-15-33-31.png
+[2021-11-05 15:33:31,738] base_page.py->wait_page_contains_element line:68 [INFO] : 在 //*[@placeholder="请输入账号"] 行为，判断页面是否存在元素：xpath 
+[2021-11-05 15:33:31,738] base_page.py->wait_page_contains_element line:74 [ERROR] : 查找元素失败：[unsupported operand type(s) for +: 'float' and 'str']
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 71, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 68, in until
+    end_time = time.time() + self._timeout
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+[2021-11-05 15:33:32,230] base_page.py->get_page_img line:206 [INFO] : 截图保存在：//*[@placeholder="请输入账号"]_2021-11-05-15-33-31.png
+[2021-11-05 15:34:52,708] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:34:52,745] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.0356752872467041
+[2021-11-05 15:34:52,745] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:34:52,754] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:34:52,847] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:34:52,888] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.04045391082763672
+[2021-11-05 15:34:52,888] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:34:52,902] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:34:53,323] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:34:53,357] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.03385591506958008
+[2021-11-05 15:34:53,357] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:34:53,367] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992 
+[2021-11-05 15:34:53,533] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:34:53,545] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.011995792388916016
+[2021-11-05 15:34:53,545] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:34:53,553] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:34:53,986] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:34:53,997] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.010475635528564453
+[2021-11-05 15:34:53,998] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:34:54,013] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:34:54,109] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:34:54,139] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.028990983963012695
+[2021-11-05 15:34:54,140] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:34:54,156] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:34:54,601] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:34:54,633] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.030400753021240234
+[2021-11-05 15:34:54,634] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:34:54,643] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992 
+[2021-11-05 15:34:54,791] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:34:54,799] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.007997751235961914
+[2021-11-05 15:34:54,799] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:34:54,810] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:36:31,871] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:36:31,892] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.021405458450317383
+[2021-11-05 15:36:31,894] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:36:31,903] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:36:32,000] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:36:32,017] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.01599574089050293
+[2021-11-05 15:36:32,017] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:36:32,025] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:36:32,151] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:36:32,170] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.017994165420532227
+[2021-11-05 15:36:32,170] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:32,181] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:32,254] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:36:32,798] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.5422112941741943
+[2021-11-05 15:36:32,798] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:36:32,807] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:36:32,825] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入手机号
+[2021-11-05 15:36:33,280] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:36:33,317] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.03673362731933594
+[2021-11-05 15:36:33,317] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:36:33,326] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992 
+[2021-11-05 15:36:33,455] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:36:33,467] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.010996580123901367
+[2021-11-05 15:36:33,467] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:36:33,475] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:36:33,583] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:36:33,607] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.023990631103515625
+[2021-11-05 15:36:33,607] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:33,621] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:33,675] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:36:34,213] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.5367164611816406
+[2021-11-05 15:36:34,213] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:36:34,225] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:36:34,245] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入密码
+[2021-11-05 15:36:34,676] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:36:34,703] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.026005029678344727
+[2021-11-05 15:36:34,704] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:36:34,712] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:36:34,856] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:36:34,870] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.014983177185058594
+[2021-11-05 15:36:34,870] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:36:34,886] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:36:34,999] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:36:35,012] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.012995481491088867
+[2021-11-05 15:36:35,012] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:35,026] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:35,080] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:36:35,620] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.5399096012115479
+[2021-11-05 15:36:35,621] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:36:35,653] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:36:35,673] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入手机号
+[2021-11-05 15:36:36,144] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:36:36,163] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.017533540725708008
+[2021-11-05 15:36:36,163] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:36:36,173] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992 
+[2021-11-05 15:36:36,329] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:36:36,342] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.012995719909667969
+[2021-11-05 15:36:36,342] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:36:36,351] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:36:36,486] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:36:36,494] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.007994890213012695
+[2021-11-05 15:36:36,494] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:36,507] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:36:36,569] base_page.py->wait_ele_visible line:45 [INFO] : 在 首页-等待[运用后台]元素可见 行为，等待元素：('xpath', '//div[@class="logo open"]/span') 
+[2021-11-05 15:36:37,193] base_page.py->wait_ele_visible line:57 [INFO] : 等待元素可见成功。等待耗时为: 0.6231684684753418
+[2021-11-05 15:37:22,647] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:37:22,678] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.029506206512451172
+[2021-11-05 15:37:22,678] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:37:22,690] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:37:22,780] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:37:22,798] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.017994165420532227
+[2021-11-05 15:37:22,799] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:37:22,812] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:37:22,955] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:37:22,974] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.017789363861083984
+[2021-11-05 15:37:22,975] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:22,986] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:23,058] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:37:23,592] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.5332772731781006
+[2021-11-05 15:37:23,592] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:37:23,600] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:37:23,617] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入手机号
+[2021-11-05 15:37:24,048] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:37:24,074] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.02457714080810547
+[2021-11-05 15:37:24,075] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:37:24,082] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992 
+[2021-11-05 15:37:24,233] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:37:24,245] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.01199483871459961
+[2021-11-05 15:37:24,245] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:37:24,254] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:37:24,360] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:37:24,374] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.013998746871948242
+[2021-11-05 15:37:24,374] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:24,381] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:24,449] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:37:24,989] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.5396595001220703
+[2021-11-05 15:37:24,990] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:37:24,998] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:37:25,014] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入密码
+[2021-11-05 15:37:25,429] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:37:25,441] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.012434005737304688
+[2021-11-05 15:37:25,441] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:37:25,449] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:37:25,558] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:37:25,569] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.010992765426635742
+[2021-11-05 15:37:25,570] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:37:25,579] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:37:25,666] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:37:25,683] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.016991615295410156
+[2021-11-05 15:37:25,683] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:25,697] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:25,758] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:37:26,294] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.5364620685577393
+[2021-11-05 15:37:26,295] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:37:26,303] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:37:26,321] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入手机号
+[2021-11-05 15:37:26,654] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:37:26,687] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.03273129463195801
+[2021-11-05 15:37:26,687] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:37:26,698] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992x 
+[2021-11-05 15:37:26,854] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:37:26,869] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.014760494232177734
+[2021-11-05 15:37:26,870] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:37:26,882] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:37:27,044] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:37:27,053] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.008026123046875
+[2021-11-05 15:37:27,054] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:27,064] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:37:27,120] base_page.py->wait_ele_visible line:45 [INFO] : 在 首页-等待[运用后台]元素可见 行为，等待元素：('xpath', '//div[@class="logo open"]/span') 
+[2021-11-05 15:37:47,436] base_page.py->wait_ele_visible line:51 [ERROR] : 当前元素查找不到的原因是：[Message: 
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 48, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2021-11-05 15:37:47,791] base_page.py->get_page_img line:228 [INFO] : 截图保存在：Outputs/screenshots\首页-等待[运用后台]元素可见_2021-11-05-15-37-47.png
+[2021-11-05 15:38:27,447] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:38:27,480] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.03199028968811035
+[2021-11-05 15:38:27,480] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:38:27,491] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:38:27,586] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:38:27,602] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.014995813369750977
+[2021-11-05 15:38:27,603] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:38:27,617] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:38:27,812] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:38:27,836] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.022993803024291992
+[2021-11-05 15:38:27,837] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:27,848] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:27,920] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:38:28,502] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.581946611404419
+[2021-11-05 15:38:28,503] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:38:28,512] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:38:28,531] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入手机号
+[2021-11-05 15:38:28,961] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:38:28,996] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.03428983688354492
+[2021-11-05 15:38:28,997] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:38:29,007] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992 
+[2021-11-05 15:38:29,162] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:38:29,171] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.007586479187011719
+[2021-11-05 15:38:29,171] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:38:29,181] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:38:29,280] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:38:29,303] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.02299189567565918
+[2021-11-05 15:38:29,303] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:29,321] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:29,370] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:38:29,893] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.5212259292602539
+[2021-11-05 15:38:29,894] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:38:29,903] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:38:29,918] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入密码
+[2021-11-05 15:38:30,330] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:38:30,349] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.018222332000732422
+[2021-11-05 15:38:30,350] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:38:30,357] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本:  
+[2021-11-05 15:38:30,483] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:38:30,491] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.007996797561645508
+[2021-11-05 15:38:30,492] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:38:30,502] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本:  
+[2021-11-05 15:38:30,596] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:38:30,604] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.0072743892669677734
+[2021-11-05 15:38:30,604] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:30,616] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:30,667] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，等待元素：('xpath', '//*[@class="el-message el-message--error"]') 存在。
+[2021-11-05 15:38:31,198] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.530601978302002
+[2021-11-05 15:38:31,198] base_page.py->get_element line:122 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，查看元素：('xpath', '//*[@class="el-message el-message--error"]') 
+[2021-11-05 15:38:31,207] base_page.py->get_text line:188 [INFO] : 在 登录页面-获取登录区域错误提示信息 行为，获取：('xpath', '//*[@class="el-message el-message--error"]') 元素的文本信息
+[2021-11-05 15:38:31,225] base_page.py->get_text line:198 [INFO] : 获取到的文本信息是: 请输入手机号
+[2021-11-05 15:38:31,634] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入用户名 行为，等待元素：('xpath', '//*[@placeholder="请输入账号"]') 存在。
+[2021-11-05 15:38:31,652] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.015850543975830078
+[2021-11-05 15:38:31,653] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入用户名 行为，查看元素：('xpath', '//*[@placeholder="请输入账号"]') 
+[2021-11-05 15:38:31,665] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入用户名 行为，给元素：('xpath', '//*[@placeholder="请输入账号"]') , 输入文本: 13252254992x 
+[2021-11-05 15:38:31,827] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-输入密码 行为，等待元素：('xpath', '//*[@placeholder="请输入密码"]') 存在。
+[2021-11-05 15:38:31,838] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.009997129440307617
+[2021-11-05 15:38:31,838] base_page.py->get_element line:122 [INFO] : 在 登录页面-输入密码 行为，查看元素：('xpath', '//*[@placeholder="请输入密码"]') 
+[2021-11-05 15:38:31,850] base_page.py->input_text line:167 [INFO] : 在 登录页面-输入密码 行为，给元素：('xpath', '//*[@placeholder="请输入密码"]') , 输入文本: 254992 
+[2021-11-05 15:38:31,974] base_page.py->wait_page_contains_element line:90 [INFO] : 在 登录页面-点击登录按钮 行为，等待元素：('xpath', '//*[@type="button"]') 存在。
+[2021-11-05 15:38:31,986] base_page.py->wait_page_contains_element line:102 [INFO] : 等待耗时为：0.01199483871459961
+[2021-11-05 15:38:31,987] base_page.py->get_element line:122 [INFO] : 在 登录页面-点击登录按钮 行为，查看元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:31,996] base_page.py->click line:145 [INFO] : 在 登录页面-点击登录按钮 行为，点击元素：('xpath', '//*[@type="button"]') 
+[2021-11-05 15:38:32,052] base_page.py->wait_ele_visible line:45 [INFO] : 在 首页-等待[运用后台]元素可见 行为，等待元素：('xpath', '//div[@class="logo open"]/span') 
+[2021-11-05 15:38:52,405] base_page.py->wait_ele_visible line:51 [ERROR] : 当前元素查找不到的原因是：[Message: 
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 48, in wait_ele_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2021-11-05 15:38:52,846] base_page.py->get_page_img line:228 [INFO] : 截图保存在：D:\Yao_Pytest\Outputs/screenshots\首页-等待[运用后台]元素可见_2021-11-05-15-38-52.png

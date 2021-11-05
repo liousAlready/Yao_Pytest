@@ -2,19 +2,13 @@
 # @Time : 2021/11/4 16:20
 # @Author : Limusen
 # @File : home_page
-from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webdriver import WebDriver
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
+
+from Common.base_page import BasePage
 from PageLocators.home_locator import HomeLocator as loc
 
 
-class HomePage:
-
-    def __init__(self, driver: WebDriver):
-        # 属性 - 元素定位
-        self.driver = driver
-        self.wait = WebDriverWait(self.driver, 20)
+class HomePage(BasePage):
 
     def is_exit_exist(self):
         """
@@ -22,7 +16,7 @@ class HomePage:
         :return:
         """
         try:
-            self.wait.until(EC.visibility_of_element_located(loc.exit_loc))
+            self.wait_ele_visible(loc.exit_loc, "首页-等待[运用后台]元素可见")
         except:
             return False
         else:
