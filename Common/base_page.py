@@ -23,6 +23,46 @@ class BasePage:
     def __init__(self, driver: WebDriver):
         self.driver = driver
 
+    def close_browser(self):
+        self.driver.close()
+        logger.info("关闭当前tab页签")
+
+    def exit_driver(self):
+        self.driver.quit()
+        logger.info("退出浏览器")
+
+    def back_up(self):
+        self.driver.back()
+        logger.info("返回上一页")
+
+    def forward(self):
+        self.driver.forward()
+        logger.info("前进一页")
+
+    def set_window_max(self):
+        self.driver.maximize_window()
+        logger.info("浏览器最大化")
+
+    def page_refresh(self):
+        self.driver.refresh()
+        logger.info("浏览器刷新")
+
+    def get_title(self):
+        value = self.driver.title
+        logger.info("获取标题：%s" % value)
+        return value
+
+    def get_url(self):
+        value = self.driver.current_url
+        logger.info("获取url：%s" % value)
+        return value
+
+    def get_page_source(self):
+        self.wait(1)
+        source = self.driver.page_source
+        logger.info("获取页面源码...")
+        return source
+
     def wait(self, seconds=5):
         """
         固定等待--加入默认值，如果没有设置超时时间，则默认等待五秒钟
@@ -151,6 +191,19 @@ class BasePage:
             # 截图
             self.get_page_img(page_action)
             raise
+
+    def clear_input(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        ele = self.get_element(locator, page_action, timeout, poll_frequency)
+        try:
+            ele.clear()
+        except Exception as e:
+            # 输入到日志
+            logger.exception("点击操作失败！原因是：[{}]".format(e.__str__()))
+            # 截图
+            self.get_page_img(page_action)
+            raise
+        else:
+            logger.info("清除内容输入框内容")
 
     def get_text(self, locator, page_action, timeout=20, poll_frequency=0.5):
         """

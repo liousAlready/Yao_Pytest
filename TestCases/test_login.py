@@ -27,6 +27,7 @@ class TestLogin:
         assert LoginPage(refresh).get_error_msg_from_login_area() == case['check']
 
     # 正向场景 登录成功
+    @pytest.mark.smoker #　执行冒烟
     def test_login_success(self, refresh):
         # 登录 --  步骤
         # 　调用登录页面的登录方法
