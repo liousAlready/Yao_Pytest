@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "[TiTile]case 登录失败逆向场景",
+          "uid" : "aa51b4fc3be65566",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636521221364,
+            "stop" : 1636521222320,
+            "duration" : 956
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'user': '', 'passwd': '254992', 'check': '请输入手机号'}" ]
+        }, {
+          "name" : "[TiTile]case 登录失败逆向场景",
+          "uid" : "30a4ba2bbd351fb9",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636521222693,
+            "stop" : 1636521223719,
+            "duration" : 1026
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'user': '13252254992', 'passwd': '', 'check': '请输入密码'}" ]
+        }, {
+          "name" : "[TiTile]case 登录失败逆向场景",
+          "uid" : "98da566b7afd17a5",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636521224023,
+            "stop" : 1636521224979,
+            "duration" : 956
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'user': '', 'passwd': '', 'check': '请输入手机号'}" ]
+        }, {
+          "name" : "[TiTile]case 登录成功场景",
+          "uid" : "5ad558f786647375",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636521225306,
+            "stop" : 1636521226369,
+            "duration" : 1063
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "156334d8d56ad3e60f17bab8a0cb7a59"
+      } ],
+      "uid" : "ee33cb4c057a9d7ca1eec0eaa23a4bee"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
+  } ]
+}

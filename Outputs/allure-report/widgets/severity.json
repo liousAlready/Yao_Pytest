@@ -1,0 +1,41 @@
+[ {
+  "uid" : "aa51b4fc3be65566",
+  "name" : "[TiTile]case 登录失败逆向场景",
+  "time" : {
+    "start" : 1636521221364,
+    "stop" : 1636521222320,
+    "duration" : 956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98da566b7afd17a5",
+  "name" : "[TiTile]case 登录失败逆向场景",
+  "time" : {
+    "start" : 1636521224023,
+    "stop" : 1636521224979,
+    "duration" : 956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30a4ba2bbd351fb9",
+  "name" : "[TiTile]case 登录失败逆向场景",
+  "time" : {
+    "start" : 1636521222693,
+    "stop" : 1636521223719,
+    "duration" : 1026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ad558f786647375",
+  "name" : "[TiTile]case 登录成功场景",
+  "time" : {
+    "start" : 1636521225306,
+    "stop" : 1636521226369,
+    "duration" : 1063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

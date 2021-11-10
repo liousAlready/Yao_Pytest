@@ -4,6 +4,7 @@
 # @File : test_login
 
 import pytest
+import allure
 from PageObjects.login_page import LoginPage
 from PageObjects.home_page import HomePage
 from TestDatas import login_datas as td
@@ -17,17 +18,24 @@ from TestDatas import login_datas as td
 """
 
 
+@allure.epic("[epic]盛杰运营后台")
 @pytest.mark.usefixtures("refresh")
 class TestLogin:
 
     # 　逆向场景　登录失败　数据格式无效
+    @allure.story("[Story]用户根据用户名密码登录系统")
+    @allure.title("[TiTile]case 异常用例")
+    @allure.description("登录测试用例 执行人：李某")
     @pytest.mark.parametrize("case", td.invalid_data)
     def test_login_failed_invalid_data(self, case, refresh):
         LoginPage(refresh).login(case['user'], case['passwd'])
         assert LoginPage(refresh).get_error_msg_from_login_area() == case['check']
 
     # 正向场景 登录成功
-    @pytest.mark.smoker #　执行冒烟
+    @allure.story("[Story]用户根据用户名密码登录系统")
+    @allure.title("[TiTile]case 登录成功场景")
+    @allure.description("登录测试用例 执行人：李某")
+    @pytest.mark.smoker  # 执行冒烟
     def test_login_success(self, refresh):
         # 登录 --  步骤
         # 　调用登录页面的登录方法

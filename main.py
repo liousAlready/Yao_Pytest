@@ -5,4 +5,6 @@
 
 import pytest
 
-pytest.main(['-s', '-v', '--alluredir=Outputs/reports'])
+# pytest.main(['-s', '-v', '--alluredir=Outputs/reports'])
+
+pytest.main()
