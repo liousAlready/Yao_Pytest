@@ -16,18 +16,32 @@ from TestDatas import global_datas as gd
 class TestSystem:
 
     @allure.story("[Story]系统管理-内部人员管理")
-    @allure.title("[TiTile] case 查询内部人员--用户名查找")
+    @allure.title("[TiTile] case 查询内部人员 -- 用户名查找")
     @allure.description("登录测试用例 执行人：{}".format(gd.executor))
     def test_query_name(self, refresh):
         SystemPage(refresh).query_name(td.query_name)
         assert SystemPage(refresh).get_query_name_text() == td.query_name
 
     @allure.story("[Story]系统管理-内部人员管理")
-    @allure.title("[TiTile] case 查询内部人员--查询不存在的用户名")
+    @allure.title("[TiTile] case 查询内部人员 -- 查询不存在的用户名")
     @allure.description("登录测试用例 执行人：{}".format(gd.executor))
     def test_query_name_noll(self, refresh):
         SystemPage(refresh).query_name(td.query_null_name)
-        assert SystemPage(refresh).query_null() == "暂无数据"
+        assert SystemPage(refresh).query_null() == td.query_null_text
+
+    @allure.story("[Story]系统管理-内部人员管理")
+    @allure.title("[TiTile] case 查询内部人员 -- 查询状态为在职的员工")
+    @allure.description("登录测试用例 执行人：{}".format(gd.executor))
+    def test_query_status_online(self, refresh):
+        SystemPage(refresh).query_status_online()
+        assert SystemPage(refresh).get_query_name_text() == td.query_name
+
+    @allure.story("[Story]系统管理-内部人员管理")
+    @allure.title("[TiTile] case 查询内部人员 -- 查询状态为离职的员工")
+    @allure.description("登录测试用例 执行人：{}".format(gd.executor))
+    def test_query_status_quit(self, refresh):
+        SystemPage(refresh).query_status_quit()
+        assert SystemPage(refresh).get_query_name_text() == td.query_quit_name
 
 
 if __name__ == '__main__':

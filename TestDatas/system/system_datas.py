@@ -6,3 +6,5 @@
 
 query_name = "admin"
 query_null_name = "今天你有没有爱上我"
+query_null_text = "暂无数据"
+query_quit_name = "离职测试人员"

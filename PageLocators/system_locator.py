@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 
 class SystemLocator:
     # 系统管理tab
-    system_tab = (By.XPATH, '//*[@class="yijizhan"]/div/*[@class="iconfont iconzu400"]')
+    system_tab = (By.XPATH, '//div[2]/ul/li[2]/div/div')
     # 内部人员管理
     insider_click = (By.XPATH, '//*[@id="app"]/div/div[1]/div/div[1]/div/div[2]/ul/li[2]/div/ul/li[1]/div')
     # 姓名输入框
@@ -26,12 +26,12 @@ class SystemLocator:
 
     # #    查询成功的内部用户
     # select_name_pass = (By.XPATH,'//*[@class="el-table_1_column_2  "]')
-    # # 点击状态
-    # click_status = (By.XPATH,'//*/div[2]/div[1]/div[1]/div[1]/input')
-    # #     查询状态 - 在职
-    # incumbency_status = (By.XPATH,'//body/div[2]/div[1]/div[1]/ul/li[1]')
-    # #     查询状态 - 离职
-    # quit_status = (By.XPATH,'//body/div[2]/div[1]/div[1]/ul/li[2]')
+    # 点击状态
+    click_status = (By.XPATH,'//*/div[2]/div[1]/div[1]/div[1]/input')
+    #     查询状态 - 在职
+    incumbency_status = (By.XPATH,'//body/div[2]/div[1]/div[1]/ul/li[1]')
+    #     查询状态 - 离职
+    quit_status = (By.XPATH,'//body/div[2]/div[1]/div[1]/ul/li[2]')
     # #     离职人员
     # quit_userid = (By.XPATH,'//*[@id="app"]/div/div[2]/div/div[1]/div/div[2]/div/div[2]/div[4]/div[1]/div[3]/table/tbody/tr[1]/td[1]/div')
     # #     输入手机号
