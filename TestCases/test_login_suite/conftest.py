@@ -9,7 +9,6 @@
 import pytest
 from selenium import webdriver
 from TestDatas import global_datas as gd
-from PageObjects.login_page import LoginPage
 
 
 @pytest.fixture(scope="class")
@@ -18,7 +17,6 @@ def init():
     # driver = webdriver.Chrome("/Driver/chromedriver")     # mac地址
     driver = webdriver.Chrome()
     driver.get(gd.base_url)
-    LoginPage(driver).login(*gd.admin_user)
     yield driver
     driver.quit()
 
@@ -26,5 +24,6 @@ def init():
 # 调用init方法，先打开浏览器操作，操作完毕之后，刷新页面再重新请求
 @pytest.fixture
 def refresh(init):
-    yield init
     init.refresh()
+    yield init
+

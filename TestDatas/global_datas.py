@@ -12,3 +12,9 @@ login_url = os.path.join(base_url, '/login')
 
 # 通用的普通用户
 normal_user = ("15574933885", "933885")
+
+# 默认登录账号
+admin_user = ("13252254992", "254992")
+
+#　执行人
+executor = "limusen"
