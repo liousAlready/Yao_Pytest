@@ -13,6 +13,12 @@ class SystemPage(BasePage):
         self.click(loc.system_tab, "首页-点击系统管理tab")
         self.click(loc.insider_click, "系统管理-点击内部人员管理tab")
 
+    def name_query(self, name):
+        self.input_text(loc.username_input, "内部人员管理-输入姓名", name)
+        self.click(loc.select_click, "内容人员管理-点击查询按钮")
+        self.wait(1)
+        return self.get_text(loc.second_value, "内容人员管理-获取姓名")
+
     def query_name(self, name):
         self.click_two_button()
         self.input_text(loc.username_input, "内部人员管理-输入姓名", name)
@@ -30,8 +36,67 @@ class SystemPage(BasePage):
         self.click(loc.quit_status, "状态栏-点击离职按钮")
         self.click(loc.select_click, "内容人员管理-点击查询按钮")
 
+    def query_phone(self, phone):
+        self.click_two_button()
+        self.input_text(loc.input_phone, "内容人员管理-电话号码输入框", phone)
+        self.click(loc.select_click, "内容人员管理-点击查询按钮")
+
+    def create_user(self, **kwargs):
+        self.click_two_button()
+        self.click(loc.add_user_button_click, "内容人员管理-新增用户")
+        self.input_text(loc.add_user_name, "内容人员管理-填写用户名", kwargs['name'])
+        self.input_text(loc.add_user_phone, "内容人员管理-填写手机号", kwargs['phone'])
+        self.wait(1)
+        self.click(loc.role_click, "内容人员管理-点击选择群组下拉框")
+        self.wait(1)
+        self.click(loc.add_user_role, "内容人员管理-选择群组")
+        self.wait(1)
+        self.click(loc.add_button, "内容人员管理-点击确认按钮")
+        self.click(loc.select_click, "内容人员管理-点击查询按钮")
+
+    def create_user_fail_name(self, **kwargs):
+        self.click_two_button()
+        self.click(loc.add_user_button_click, "内容人员管理-新增用户")
+        self.wait(1)
+        self.input_text(loc.add_user_name, "内容人员管理-填写用户名", kwargs['name'])
+        self.input_text(loc.add_user_phone, "内容人员管理-填写手机号", kwargs['phone'])
+        self.click(loc.add_button, "内容人员管理-点击确认按钮")
+        self.wait(2)
+
+    def create_user_all_null(self):
+        self.click_two_button()
+        self.click(loc.add_user_button_click, "内容人员管理-新增用户")
+        self.click(loc.add_button, "内容人员管理-点击确认按钮")
+        self.wait(2)
+
+    def get_fail_name_text(self):
+        self.wait(1)
+        return self.get_text(loc.fail_name_message, "内容人员管理-不输入姓名获取失败文案")
+
+    def get_fail_phone_text(self):
+        self.wait(1)
+        return self.get_text(loc.fail_phone_message, "内容人员管理-不输入手机号获取失败文案")
+
+    def get_fail_role_text(self):
+        self.wait(1)
+        return self.get_text(loc.fail_role_message, "内容人员管理-不输入姓名获取失败文案")
+
     def get_query_name_text(self):
+        self.wait(1)
         return self.get_text(loc.second_value, "内容人员管理-获取姓名")
 
     def query_null(self):
+        self.wait(1)
         return self.get_text(loc.null_data, "查询结果为暂无数据")
+
+    def is_fail_name_message(self):
+        """
+        如果存在,则返回True,如果不存在,则返回False
+        :return:
+        """
+        try:
+            self.wait_ele_visible(loc.fail_name_message, "内容人员管理-不输入姓名获取失败文案可见")
+        except:
+            return False
+        else:
+            return True
