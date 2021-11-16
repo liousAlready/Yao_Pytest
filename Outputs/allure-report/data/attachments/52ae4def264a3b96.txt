@@ -1,0 +1,16 @@
+ERROR    root:base_page.py:167 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+                                 (Session info: chrome=93.0.4577.63)
+                               ]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)

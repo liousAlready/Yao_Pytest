@@ -1,0 +1,393 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-OTOI92D",
+    "children" : [ {
+      "name" : "3436-MainThread",
+      "children" : [ {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未选择群组",
+        "uid" : "9d0edbc3fb07fd12",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962334359,
+          "stop" : 1636962336899,
+          "duration" : 2540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 用户名查找",
+        "uid" : "bb7904e6eb6cc58c",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962312597,
+          "stop" : 1636962314360,
+          "duration" : 1763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询不存在的用户名",
+        "uid" : "9a66ceff8360d07a",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962314743,
+          "stop" : 1636962315942,
+          "duration" : 1199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 根据手机号查询",
+        "uid" : "55563f1b847dfc4f",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962318968,
+          "stop" : 1636962320138,
+          "duration" : 1170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户,都不输入",
+        "uid" : "89ff9230fcba5ce4",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962337190,
+          "stop" : 1636962339251,
+          "duration" : 2061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为在职的员工",
+        "uid" : "bfab1e1c51d38068",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962316245,
+          "stop" : 1636962317341,
+          "duration" : 1096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询不存在的手机号码",
+        "uid" : "546313df5d968af3",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962320431,
+          "stop" : 1636962321564,
+          "duration" : 1133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入用户名",
+        "uid" : "a41f66012590a315",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636962321869,
+          "stop" : 1636962327774,
+          "duration" : 5905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入手机号",
+        "uid" : "b4350a76eafc9225",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636962328274,
+          "stop" : 1636962333949,
+          "duration" : 5675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为离职的员工",
+        "uid" : "12007599d1b45c35",
+        "parentUid" : "aa20dac8850d97bb07d37bcfb2f16167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962317629,
+          "stop" : 1636962318680,
+          "duration" : 1051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa20dac8850d97bb07d37bcfb2f16167"
+    }, {
+      "name" : "14348-MainThread",
+      "children" : [ {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入用户名",
+        "uid" : "cb4e1660453b190b",
+        "parentUid" : "ba216a24666c28939b26df271e94a301",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636962780066,
+          "stop" : 1636962785934,
+          "duration" : 5868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入手机号",
+        "uid" : "508c4a983924f408",
+        "parentUid" : "ba216a24666c28939b26df271e94a301",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636962786538,
+          "stop" : 1636962791385,
+          "duration" : 4847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba216a24666c28939b26df271e94a301"
+    }, {
+      "name" : "7768-MainThread",
+      "children" : [ {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为在职的员工",
+        "uid" : "53f59b5bd7b2fd37",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964539805,
+          "stop" : 1636964541882,
+          "duration" : 2077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询不存在的手机号码",
+        "uid" : "afdb0855126a2ac0",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964546970,
+          "stop" : 1636964549103,
+          "duration" : 2133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 根据手机号查询",
+        "uid" : "33fd35f2ea23b01d",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964544529,
+          "stop" : 1636964546683,
+          "duration" : 2154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入手机号",
+        "uid" : "38b3895415354a64",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1636964549409,
+          "stop" : 1636964549409,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未选择群组",
+        "uid" : "82109ff3418a6ecc",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964549418,
+          "stop" : 1636964555045,
+          "duration" : 5627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入用户名",
+        "uid" : "278dbfc24b1ca3b1",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1636964549402,
+          "stop" : 1636964549402,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询不存在的用户名",
+        "uid" : "66a724d0b8d241e7",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964537354,
+          "stop" : 1636964539509,
+          "duration" : 2155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为离职的员工",
+        "uid" : "aa3c6c9c7ab55a84",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964542190,
+          "stop" : 1636964544247,
+          "duration" : 2057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 用户名查找",
+        "uid" : "bfe8efeab6de5cbc",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964534060,
+          "stop" : 1636964536902,
+          "duration" : 2842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户,都不输入",
+        "uid" : "eb4fde0fa268524a",
+        "parentUid" : "524b03f751a3c149c0f3dda81c630a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964555411,
+          "stop" : 1636964561638,
+          "duration" : 6227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "524b03f751a3c149c0f3dda81c630a72"
+    }, {
+      "name" : "752-MainThread",
+      "children" : [ {
+        "name" : "[TiTile] case 查询内部人员 -- 用户名查找",
+        "uid" : "d779a226d1081bc9",
+        "parentUid" : "fd894f0aaf447f1e7a2cdc34d70e0f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636623860786,
+          "stop" : 1636623862793,
+          "duration" : 2007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为在职的员工",
+        "uid" : "31df421ff76c6154",
+        "parentUid" : "fd894f0aaf447f1e7a2cdc34d70e0f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636623865636,
+          "stop" : 1636623866791,
+          "duration" : 1155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询不存在的用户名",
+        "uid" : "e9d033397437546a",
+        "parentUid" : "fd894f0aaf447f1e7a2cdc34d70e0f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636623863423,
+          "stop" : 1636623865277,
+          "duration" : 1854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为离职的员工",
+        "uid" : "249cc99e39dc455a",
+        "parentUid" : "fd894f0aaf447f1e7a2cdc34d70e0f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636623867131,
+          "stop" : 1636623868383,
+          "duration" : 1252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd894f0aaf447f1e7a2cdc34d70e0f43"
+    }, {
+      "name" : "15108-MainThread",
+      "children" : [ {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为离职的员工",
+        "uid" : "1c7cdd9c6f305484",
+        "parentUid" : "442381a905501e182a142d9e4764cc75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636623808727,
+          "stop" : 1636623809829,
+          "duration" : 1102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 用户名查找",
+        "uid" : "65e6266ebe502157",
+        "parentUid" : "442381a905501e182a142d9e4764cc75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636623806628,
+          "stop" : 1636623808352,
+          "duration" : 1724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "442381a905501e182a142d9e4764cc75"
+    } ],
+    "uid" : "1ebec3d76bf86ea046292c3c0c2ba360"
+  } ]
+}

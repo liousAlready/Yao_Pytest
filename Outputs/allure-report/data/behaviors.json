@@ -1,0 +1,143 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "[epic]盛杰运营后台",
+    "children" : [ {
+      "name" : "[Story]系统管理-内部人员管理",
+      "children" : [ {
+        "name" : "[TiTile] case 查询内部人员 -- 用户名查找",
+        "uid" : "bfe8efeab6de5cbc",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964534060,
+          "stop" : 1636964536902,
+          "duration" : 2842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询不存在的用户名",
+        "uid" : "66a724d0b8d241e7",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964537354,
+          "stop" : 1636964539509,
+          "duration" : 2155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为在职的员工",
+        "uid" : "53f59b5bd7b2fd37",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964539805,
+          "stop" : 1636964541882,
+          "duration" : 2077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询状态为离职的员工",
+        "uid" : "aa3c6c9c7ab55a84",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964542190,
+          "stop" : 1636964544247,
+          "duration" : 2057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 根据手机号查询",
+        "uid" : "33fd35f2ea23b01d",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964544529,
+          "stop" : 1636964546683,
+          "duration" : 2154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 查询不存在的手机号码",
+        "uid" : "afdb0855126a2ac0",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964546970,
+          "stop" : 1636964549103,
+          "duration" : 2133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入用户名",
+        "uid" : "278dbfc24b1ca3b1",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1636964549402,
+          "stop" : 1636964549402,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未输入手机号",
+        "uid" : "38b3895415354a64",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1636964549409,
+          "stop" : 1636964549409,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户失败,未选择群组",
+        "uid" : "82109ff3418a6ecc",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964549418,
+          "stop" : 1636964555045,
+          "duration" : 5627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[TiTile] case 查询内部人员 -- 创建用户,都不输入",
+        "uid" : "eb4fde0fa268524a",
+        "parentUid" : "c42e667062e474a2a362096001d3c892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636964555411,
+          "stop" : 1636964561638,
+          "duration" : 6227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c42e667062e474a2a362096001d3c892"
+    } ],
+    "uid" : "459c7e5c9b56da9c1248714356cc523d"
+  } ]
+}

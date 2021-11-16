@@ -1,0 +1,662 @@
+[2021-11-15 13:58:19,213] base_page.py->get_element line:144 [ERROR] : 当前元素查找不到的原因是：[Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*/tr/td[2]"}
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 141, in get_element
+    ele = self.driver.find_element(*locator)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*/tr/td[2]"}
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:00:31,718] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:01:49,661] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:04:20,163] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:29:53,188] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:36:28,522] base_page.py->wait_page_contains_element line:113 [ERROR] : 查找元素失败：[Message: 
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 110, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2021-11-15 14:44:02,679] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:47:48,322] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (1162, 513). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (1162, 513). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:48:21,502] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:51:23,134] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 14:54:27,676] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:08:08,419] base_page.py->wait_page_contains_element line:113 [ERROR] : 查找元素失败：[Message: 
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 110, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+[2021-11-15 15:08:57,526] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:09:26,075] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:28:23,108] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:28:26,161] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:29:46,835] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (666, 508). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:38:44,276] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:39:58,800] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:40:04,371] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:45:27,649] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:45:33,818] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:48:30,818] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <li data-v-6bc56568="" class="el-select-dropdown__item">...</li> is not clickable at point (465, 575). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-6bc56568="" class="el-select-dropdown__item">...</li> is not clickable at point (465, 575). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:48:35,874] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <li data-v-6bc56568="" class="el-select-dropdown__item">...</li> is not clickable at point (465, 561). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-6bc56568="" class="el-select-dropdown__item">...</li> is not clickable at point (465, 561). Other element would receive the click: <li data-v-6bc56568="" class="el-select-dropdown__item">...</li>
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:49:19,288] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:49:30,808] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:49:37,458] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:51:50,793] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:51:56,780] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:53:05,799] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:53:11,247] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 15:58:54,850] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:01:13,034] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:03:11,828] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:05:21,313] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:08:52,352] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:10:42,478] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:12:20,093] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:14:56,126] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
+[2021-11-15 16:19:04,130] base_page.py->click line:167 [ERROR] : 点击操作失败！原因是：[Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+]
+Traceback (most recent call last):
+  File "D:\Yao_Pytest\Common\base_page.py", line 164, in click
+    ele.click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568="" type="button" class="el-button el-button--primary el-button--small">...</button> is not clickable at point (630, 276). Other element would receive the click: <input type="text" autocomplete="off" placeholder="请输入员工姓名" maxlength="8" class="el-input__inner">
+  (Session info: chrome=93.0.4577.63)
+
