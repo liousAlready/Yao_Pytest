@@ -3,7 +3,7 @@
 # @Author : Limusen
 # @File : system_role_page
 
-from PageLocators.system_locator.system_role_locator import SystemRoleLocator as loc
+from PageLocators.system_locator.system_role_locator import SystemRole as loc
 from Common.base_page import BasePage
 
 

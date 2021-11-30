@@ -7,7 +7,7 @@
 from selenium.webdriver.common.by import By
 
 
-class SystemRoleLocator:
+class SystemRole:
     # 系统管理tab
     system_tab = (By.XPATH, '//div[2]/ul/li[2]/div/div')
     # 角色管理tab
