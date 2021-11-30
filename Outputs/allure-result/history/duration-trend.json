@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 27,
+  "reportUrl" : "http://localhost:8080/job/QAQ/27/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 27578
+  }
+}, {
   "buildOrder" : 26,
   "reportUrl" : "http://localhost:8080/job/QAQ/26/allure",
   "reportName" : "AllureReport",
@@ -127,11 +134,4 @@
   "reportUrl" : "http://localhost:8080/job/QAQ/8/allure",
   "reportName" : "AllureReport",
   "data" : { }
-}, {
-  "buildOrder" : 7,
-  "reportUrl" : "http://localhost:8080/job/QAQ/7/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 5093
-  }
 } ]

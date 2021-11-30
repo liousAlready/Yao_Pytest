@@ -5,7 +5,7 @@
 
 import pytest
 import allure
-from PageObjects.login_page import LoginPage
+from PageObjects.login_ob.login_page import LoginPage
 from PageObjects.home_page import HomePage
 from TestDatas.login import login_datas as td
 from TestDatas import global_datas as gd
@@ -46,4 +46,4 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', '-v', 'stest_login.py'])
+    pytest.main(['-s', '-v', 'test_login.py'])

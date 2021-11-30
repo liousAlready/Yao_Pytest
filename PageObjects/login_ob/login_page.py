@@ -3,7 +3,7 @@
 # @Author : Limusen
 # @File : login_page
 
-from PageLocators.login_locator import LoginLocators as loc
+from PageLocators.login_locator.login_locator import LoginLocators as loc
 from Common.base_page import BasePage
 
 

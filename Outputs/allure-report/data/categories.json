@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-v-6bc56568=\"\" type=\"button\" class=\"el-button el-button--primary el-button--small\">...</button> is not clickable at point (1162, 513). Other element would receive the click: <li data-v-6bc56568=\"\" class=\"el-select-dropdown__item selected\">...</li>\n  (Session info: chrome=93.0.4577.63)",
+      "children" : [ {
+        "name" : "[TiTile] case 查询内部人员 -- 将新创建的用户修改到ui测试组",
+        "uid" : "13c46d69f1071d56",
+        "parentUid" : "d0166402c9ac9a6b0d5016594a673116",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638242206715,
+          "stop" : 1638242213701,
+          "duration" : 6986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0166402c9ac9a6b0d5016594a673116"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

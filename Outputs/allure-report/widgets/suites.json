@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "cb74d2bc5a68f8edd464f74a7367dc9f",
     "name" : "TestCases.test_system_suite",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 2,
-      "passed" : 8,
+      "passed" : 25,
       "unknown" : 0,
-      "total" : 10
+      "total" : 28
+    }
+  }, {
+    "uid" : "ca82a66d5afed27435d44038c233a940",
+    "name" : "TestCases.test_login_suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
     }
   } ]
 }

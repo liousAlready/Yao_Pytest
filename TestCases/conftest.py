@@ -9,7 +9,7 @@
 import pytest
 from selenium import webdriver
 from TestDatas import global_datas as gd
-from PageObjects.login_page import LoginPage
+from PageObjects.login_ob.login_page import LoginPage
 
 
 @pytest.fixture(scope="class")
@@ -17,6 +17,7 @@ def init():
     # 实例化driver,访问登录页面
     # driver = webdriver.Chrome("/Driver/chromedriver")     # mac地址
     driver = webdriver.Chrome()
+    driver.maximize_window()
     driver.get(gd.base_url)
     LoginPage(driver).login(*gd.admin_user)
     yield driver

@@ -7,7 +7,7 @@
 from selenium.webdriver.common.by import By
 
 
-class SystemLocator:
+class SystemInternal:
     # 系统管理tab
     system_tab = (By.XPATH, '//div[2]/ul/li[2]/div/div')
     # 内部人员管理
@@ -50,7 +50,7 @@ class SystemLocator:
     role_click = (By.XPATH, '//div[1]/form/div[3]/div[1]/div[1]/div[1]/input')
     #     新增用户 - 确认按钮
     add_button = (
-    By.XPATH, '//*[@id="app"]/div/div[2]/div/div[1]/div/div[2]/div/div[3]/div/div[2]/div/form/div[4]/div/button[2]')
+        By.XPATH, '//*[@id="app"]/div/div[2]/div/div[1]/div/div[2]/div/div[3]/div/div[2]/div/form/div[4]/div/button[2]')
     #     点击离职按钮
     quit_user_button = (By.XPATH,
                         '//*[@id="app"]/div/div[2]/div/div[1]/div/div[2]/div/div[2]/div[4]/div[1]/div[3]/table/tbody/tr[1]/td[7]/div/button[2]/span')
@@ -71,17 +71,27 @@ class SystemLocator:
 
     fail_name_message = (By.XPATH, '//form/div[1]/div/div[2]')
 
-    fail_phone_message = (By.XPATH,'//form[1]/div[2]/div[1]/div[2]')
+    fail_phone_message = (By.XPATH, '//form[1]/div[2]/div[1]/div[2]')
 
-    fail_role_message= (By.XPATH,'//form[1]/div[3]/div[1]/div[2]')
+    fail_role_message = (By.XPATH, '//form[1]/div[3]/div[1]/div[2]')
 
-    # #     离职
-    # quit_text = (By.XPATH,)
-    # #     当前所在群组
-    # now_group = (By.XPATH,)
-    # #     重复的手机号码
-    # repeat_phone_tips = (By.XPATH,)
-    # #     手机号码格式错误
-    # phone_format_error = (By.XPATH,)
-    # #     暂无数据
-    # no_data = (By.XPATH,)
+    #   离职
+    quit_text = (By.XPATH, '//tr[*]/td[7]/div[1]/button[2]/span[1]')
+
+    # 翻页按钮
+    page_next = (By.XPATH, '//div[2]/div[1]/button[2]')
+
+    page_input = (By.XPATH, '//div[1]/span[3]/div[1]/input[1]')
+
+    # 确认离职按钮
+    accpet = (By.XPATH, '//body[1]/div[2]/div[1]/div[3]/button[2]/span[1]')
+
+    quit_message = (By.XPATH, '//tr[*]/td[5]/div[1]/span[1]')
+
+    # 编辑按钮
+    edit_button = (By.XPATH, '//tr[*]/td[*]/div[1]/button[1]/span[1]')
+
+    # 修改群组
+    group = (By.XPATH, '//body[1]/div[3]/div[1]/div[1]/ul[1]/li[*]')
+
+    group_message = (By.XPATH, '//tr[*]/td[4]/div[1]')

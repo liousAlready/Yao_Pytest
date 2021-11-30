@@ -31,5 +31,5 @@ rd = RandomUtils()
 
 if __name__ == '__main__':
     # name = RandomUtils().Rname()
-    name = rd.Rname()
+    name = rd.Rcode()
     print(name)

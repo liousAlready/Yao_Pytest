@@ -148,6 +148,75 @@ class BasePage:
         else:
             return ele
 
+    def get_elements(self, locator, page_action, timeout=20, poll_frequency=0.5, wait_exist=False):
+        """
+        先等待元素可见或存在
+        在查找元素
+        :param locator: 元素
+        :param page_action: 页面操作
+        :param wait: 如果为false则走下一步
+        :param timeout: 超时时间
+        :param poll_frequency: 间隔时间
+        :return:
+        """
+        # 先等待元素可见或者存在
+        if wait_exist is False:
+            self.wait_page_contains_element(locator, page_action, timeout, poll_frequency)
+        else:
+            self.wait_ele_visible(locator, page_action, timeout, poll_frequency)
+
+        # 查看元素
+        logger.info("在 {} 行为，查看元素：{} ".format(page_action, locator))
+        try:
+            eles = self.driver.find_elements(*locator)
+        except Exception as e:
+            # 输入到日志
+            logger.exception("当前元素查找不到的原因是：[{}]".format(e.__str__()))
+            # 截图
+            self.get_page_img(page_action)
+            raise
+        else:
+            return eles
+
+    def get_last_elements(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        """选择列表最后一个元素"""
+        element_list = self.get_elements(locator, page_action, timeout, poll_frequency)
+        try:
+            element_list[-1].click()
+            logger.info("选择列表最后一个元素")
+        except Exception as e:
+            logger.error("[%s]元素不能识别,原因是: %s" % (locator, e.__str__()))
+            self.get_page_img(page_action)
+
+    def get_text_elements(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        """选择列表最后一个元素"""
+        element_list = self.get_elements(locator, page_action, timeout, poll_frequency)
+        try:
+            text = element_list[-1].text
+            logger.info("选择列表最后一个元素")
+            return text
+        except Exception as e:
+            logger.error("[%s]元素不能识别,原因是: %s" % (locator, e.__str__()))
+            self.get_page_img(page_action)
+
+    def turn_pages(self, locator, page_action, timeout=20, poll_frequency=0.5):
+        """
+        点击翻页按钮到最后一页
+        :param locator:
+        :param page_action:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        """
+        ele = self.get_element(locator, page_action, timeout, poll_frequency)
+        logger.info("在 {} 行为，点击元素：{} ".format(page_action, locator))
+
+        while ele.is_enabled():
+            if ele.is_enabled():
+                ele.click()
+            else:
+                break
+
     def click(self, locator, page_action, timeout=20, poll_frequency=0.5):
         """
         对元素进行点击操作

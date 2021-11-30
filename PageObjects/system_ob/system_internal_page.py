@@ -3,7 +3,7 @@
 # @Author : Limusen
 # @File : system_page
 
-from PageLocators.system_locator import SystemLocator as loc
+from PageLocators.system_locator.system_internal_locator import SystemInternal as loc
 from Common.base_page import BasePage
 
 
@@ -54,6 +54,18 @@ class SystemPage(BasePage):
         self.click(loc.add_button, "内容人员管理-点击确认按钮")
         self.click(loc.select_click, "内容人员管理-点击查询按钮")
 
+    def create_user_no_query(self, **kwargs):
+        self.click_two_button()
+        self.click(loc.add_user_button_click, "内容人员管理-新增用户")
+        self.input_text(loc.add_user_name, "内容人员管理-填写用户名", kwargs['name'])
+        self.input_text(loc.add_user_phone, "内容人员管理-填写手机号", kwargs['phone'])
+        self.wait(1)
+        self.click(loc.role_click, "内容人员管理-点击选择群组下拉框")
+        self.wait(1)
+        self.click(loc.add_user_role, "内容人员管理-选择群组")
+        self.wait(1)
+        self.click(loc.add_button, "内容人员管理-点击确认按钮")
+
     def create_user_fail_name(self, **kwargs):
         self.click_two_button()
         self.click(loc.add_user_button_click, "内容人员管理-新增用户")
@@ -68,6 +80,34 @@ class SystemPage(BasePage):
         self.click(loc.add_user_button_click, "内容人员管理-新增用户")
         self.click(loc.add_button, "内容人员管理-点击确认按钮")
         self.wait(2)
+
+    def set_user_quit(self, ):
+        self.click_two_button()
+        self.wait(1)
+        self.turn_pages(loc.page_next,"内容人员管理-翻页按钮")
+        self.wait(1)
+        self.get_last_elements(loc.quit_text,"内容人员管理-离职按钮")
+        self.click(loc.accpet,"内容人员管理-离职二次确认按钮")
+
+    def edit_user_group(self):
+        self.click_two_button()
+        self.wait(1)
+        self.turn_pages(loc.page_next,"内容人员管理-翻页按钮")
+        self.wait(1)
+        self.get_last_elements(loc.edit_button, "内容人员管理-编辑按钮")
+        self.wait(1)
+        self.click(loc.role_click,"内容人员管理-选择群组按钮")
+        self.wait(1)
+        self.get_last_elements(loc.group,"内容人员管理-选择ui群组按钮")
+        self.click(loc.add_button,"内容人员管理-点击修改按钮")
+
+    def get_quit_message(self):
+        self.wait(1)
+        return self.get_text_elements(loc.quit_message,"内容人员管理-查看是否离职")
+
+    def get_edit_group_message(self):
+        self.wait(1)
+        return self.get_text_elements(loc.group_message, "内容人员管理-查看是否修改群组")
 
     def get_fail_name_text(self):
         self.wait(1)

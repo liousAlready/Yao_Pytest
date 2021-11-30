@@ -14,3 +14,6 @@ query_null_phone = 1557485669
 create_fail_name = "请输入员工姓名"
 create_fail_phone = "请输入员工手机号"
 create_fail_role = "请选择角色"
+
+quit_message = "离职"
+edit_message = "仅供ui测试提供"
