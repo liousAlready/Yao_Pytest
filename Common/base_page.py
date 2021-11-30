@@ -23,6 +23,10 @@ class BasePage:
     def __init__(self, driver: WebDriver):
         self.driver = driver
 
+    def open_url(self,url):
+        self.driver.get(url)
+        logger.info("打开url: {}".format(url))
+
     def close_browser(self):
         self.driver.close()
         logger.info("关闭当前tab页签")

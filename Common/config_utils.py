@@ -42,11 +42,18 @@ class ConfigUtils:
         logs_level = self.cfg.get("LOGS", "LOG_LEVEL")
         return int(logs_level)
 
+    @property
+    def default_driver(self):
+        default_driver = self.cfg.get("DRIVER", "DEFAULT_DRIVER")
+        return default_driver
 
 
-
+    @property
+    def error_file_path(self):
+        error_file_path = self.cfg.get("ERROR", "ERROR_FILE")
+        return error_file_path
 
 local_config = ConfigUtils()
 
 if __name__ == "__main__":
-    print(    local_config.get_screen_shot_path)
+    print(    local_config.error_file_path)
