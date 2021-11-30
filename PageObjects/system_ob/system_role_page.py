@@ -16,15 +16,21 @@ class SystemRolePage(BasePage):
     def create_role(self, **kwargs):
         self.click_two_button()
         self.click(loc.new_role_button, "角色管理-点击新建角色按钮")
+        self.wait(1)
         self.input_text(loc.role_name_input, "角色管理-输入角色名称", kwargs['name'])
+        self.wait(1)
         self.input_text(loc.role_code_input, "角色管理-输入角色code", kwargs['code'])
+        self.wait(1)
         self.click(loc.role_main_button, "角色管理-选择角色权限为首页")
+        self.wait(1)
         self.click(loc.accept_button, "角色管理-点击确认按钮")
 
     def create_role_no_select_group(self, **kwargs):
         self.click_two_button()
         self.click(loc.new_role_button, "角色管理-点击新建角色按钮")
+        self.wait(1)
         self.input_text(loc.role_name_input, "角色管理-输入角色名称", kwargs['name'])
+        self.wait(1)
         self.input_text(loc.role_code_input, "角色管理-输入角色code", kwargs['code'])
         self.click(loc.accept_button, "角色管理-点击确认按钮")
 
@@ -55,15 +61,19 @@ class SystemRolePage(BasePage):
         return self.get_text_elements(loc.get_role_name, "角色管理-获取角色名称")
 
     def get_error_no_name(self):
+        self.wait(1)
         return self.get_text(loc.role_name_null_message, "角色管理-获取未输入角色名称错误提示")
 
     def get_error_no_code(self):
+        self.wait(1)
         return self.get_text(loc.role_code_null_message, "角色管理-获取未输入角色编号错误提示")
 
     def get_error_no_group(self):
+        self.wait(1)
         return self.get_text(loc.role_no_select_message, "角色管理-获取选择群组错误提示")
 
     def get_no_data_message(self):
+        self.wait(1)
         return self.get_text(loc.no_data, "角色管理-暂无数据")
 
     def get_group_role_name(self):

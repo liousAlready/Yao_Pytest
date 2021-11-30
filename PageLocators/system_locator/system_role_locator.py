@@ -22,7 +22,7 @@ class SystemRoleLocator:
     # 权限-首页
     role_main_button = (By.XPATH, '//form[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/label[1]/span[1]/span[1]')
     # 确定按钮
-    accept_button = (By.XPATH, '//div[2]/div[1]/div[1]/button[2]1')
+    accept_button = (By.XPATH, '//div[2]/div[1]/div[1]/button[2]')
 
     # 获取角色名称
     get_role_name = (By.XPATH, '//tr[*]/td[1]/div[1]')

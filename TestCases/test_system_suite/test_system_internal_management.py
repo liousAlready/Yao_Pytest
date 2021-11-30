@@ -116,4 +116,4 @@ class TestSystemInternalManagement:
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', '-v', 'sstest_system_internal_management.py'])
+    pytest.main(['-s', '-v', 'test_system_internal_management.py'])
