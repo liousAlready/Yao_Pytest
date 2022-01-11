@@ -18,16 +18,18 @@ import warnings
 current_path = os.path.dirname(__file__)
 driver_path = os.path.join(current_path, "..", local_config.get_driver_path)
 
+chrome_path = os.path.join(current_path, '..', 'Driver', 'chromedriver93.exe')
 
+system_driver = sys.platform
 class Browser:
-    system_driver = sys.platform
+
 
     def __init__(self, path=driver_path):
         # 　去除控制台警告
         warnings.filterwarnings("ignore", category=DeprecationWarning)
         self.driver_path = path
         self.driver_name = local_config.default_driver
-        self.driver_system = Browser.system_driver
+
 
     def get_driver(self):
         if self.driver_name.lower() == "chrome":
@@ -41,25 +43,38 @@ class Browser:
             return self.__get_edge_driver()
 
     def __get_chrome_driver(self):
-        """去除谷歌浏览器控制白条"""
-        chrome_options = Options()
-        chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
-        chrome_options.add_argument('lang=zh_CN.UTF-8')  # 设置默认编码为utf-8
-        chrome_options.add_experimental_option('useAutomationExtension', False)  # 取消chrome受自动控制提示
-        chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])  # 取消chrome受自动控制提示
-        if self.driver_system.lower() == "darwin":
-            chrome_driver_path = os.path.join(self.driver_path, 'chromedriver')
-            driver = webdriver.Chrome(chrome_driver_path, options=chrome_options)
-            logger.info('初始化Google浏览器并启动')
+        # 先封装简易代码
+        # 加入系统环境判断
+        if system_driver.lower() == "darwin":
+            chrome_options = Options()
+            chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            chrome_options.add_argument('lang=zh_CN.UTF-8')  # 设置默认编码为utf-8
+            chrome_options.add_experimental_option('useAutomationExtension', False)  # 取消chrome受自动控制提示
+            chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])  # 取消chrome受自动控制提示
+            """如果是mac系统执行这个驱动"""
+            chrome_path = os.path.join(current_path, '..', 'Driver', 'chromedriver')
+            driver = webdriver.Chrome(executable_path=chrome_path, options=chrome_options)
             return driver
-        else:
-            chrome_driver_path = os.path.join(self.driver_path, 'chromedriver93.exe')
-            driver = webdriver.Chrome(chrome_driver_path, options=chrome_options)
-            logger.info('初始化Google浏览器并启动')
+        elif system_driver.lower() == "win32":
+            chrome_options = Options()
+            chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            chrome_options.add_argument('lang=zh_CN.UTF-8')  # 设置默认编码为utf-8
+            chrome_options.add_experimental_option('useAutomationExtension', False)  # 取消chrome受自动控制提示
+            chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])  # 取消chrome受自动控制提示
+            chrome_path = os.path.join(current_path, '..', 'Driver', 'chromedriver93.exe')
+            driver = webdriver.Chrome(executable_path=chrome_path, options=chrome_options)
+            return driver
+        elif system_driver.lower() == "linux":
+            chrome_options = Options()
+            chrome_options.add_argument('no-sandbox')
+            chrome_options.add_argument("headless")  # => 为Chrome配置无头模式
+            chrome_options.add_argument('disable-dev-shm-usage')
+            chrome_options.add_argument('disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            driver = webdriver.Chrome(options=chrome_options)
             return driver
 
     def __get_firefox_driver(self):
-        if self.driver_system.lower() == "darwin":
+        if system_driver.lower() == "darwin":
             firefox_driver_path = os.path.join(self.driver_path, 'geckodriver')
             driver = webdriver.Firefox(executable_path=firefox_driver_path)
             logger.info('初始化Firefox浏览器并启动')
