@@ -61,7 +61,7 @@ class Browser:
             chrome_options.add_argument('lang=zh_CN.UTF-8')  # 设置默认编码为utf-8
             chrome_options.add_experimental_option('useAutomationExtension', False)  # 取消chrome受自动控制提示
             chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])  # 取消chrome受自动控制提示
-            chrome_path = os.path.join(current_path, '..', 'Driver', 'chromedriver93.exe')
+            chrome_path = os.path.join(current_path, '..', 'Driver', 'chromedriver98.exe')
             driver = webdriver.Chrome(executable_path=chrome_path, options=chrome_options)
             return driver
         elif system_driver.lower() == "linux":
